@@ -1,3 +1,24 @@
+:root{
+    --font-base--poppins: 'Poppins', sans-serif;
+    --secondary-font-quicksand: 'Quicksand', sans-serif;
+    
+    --btn-primary-color: #D83A3A;
+    --shade-0: #000000;
+    --shade-1: #f2f2f2;
+    --shade-2: #D9D9D9;
+    --shade-3: #BFBFBF;
+    --shade-4: #A6A6A6;
+    --shade-5: #8C8C8C;
+    --shade-6: #737373;
+    --shade-7: #595959;
+    --shade-8: #404040;
+    --shade-9: #0D0D0D;
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -132,9 +153,25 @@ p{
 }
 .bubble{
 	color: #FFFFFF;
-	padding: 15px;
+	padding: 12px;
 	border-radius: 50px;
 	display: inline-block;
 	margin-right: 10px;
-	background: rgba(255, 255, 255, .20);
+	background: rgba(255, 255, 255, .15);
+}
+.hero-btn a{
+	display: inline-block;
+	padding: 12px 24px;
+	margin-right: 16px;
+	border-radius: 20px;
+	font-size: 16px;
+	font-weight: 500;
+}
+.contact-btn{
+	background: rgba(255, 255, 255, .15);
+	color: #FFFFFF;
+}
+.download-btn{
+	background-color: #D83A3A;
+	color: #FFFFFF;
 }
