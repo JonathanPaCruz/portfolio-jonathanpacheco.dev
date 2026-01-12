@@ -23,6 +23,9 @@
     margin: 0;
     padding: 0;
 } 
+html{
+  scroll-behavior: smooth;
+}
 body{
     background-color: var(--shade-1);
     margin: 0;
@@ -191,8 +194,8 @@ nav ul li a{
     gap: 20px;
 }
 .hero-btns a{
-    padding: 18px;
-    border-radius: 20px;
+    padding: 10px;
+    border-radius: 5px;
     font-size: 16px;
     font-family: var(--secondary-font-quicksand);
     font-weight: var(--fw-semibold);
@@ -212,4 +215,89 @@ nav ul li a{
 .hero-btns a:nth-of-type(2){
     background: var(--btn-primary-color);
     text-decoration: none;
+}
+/*Empieza la seccion: SOBRE MÍ*/
+.about-me{
+    max-width: 1019px;
+    margin: 0 auto;
+    padding-top: 120px;
+    display: grid;
+    grid-template-columns: 274px 1fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 0 31px;
+    align-items: start;
+}
+.about-me .about-image{
+    grid-column: 1;
+    grid-row: 1 / 4;
+}
+.about-me img{
+    width: 274px;
+    height: 342px;
+    border-radius: 20px;
+    display: block;
+}
+.about-me .btn-contact{
+    grid-column: 2;
+    grid-row: 3;
+    justify-self: start;
+    align-self: start;
+}
+.about-description{
+    color: var(--shade-6);
+    font-size: 18px;
+    font-family: var(--secondary-font-quicksand);
+    font-weight: var(--fw-medium);
+    margin-top: 14px;
+    max-width: 700px;
+}
+.about-description p{
+    margin:14px 0 14px 0;
+}
+.btn-contact{
+    display: flex;
+    gap: 20px;
+}
+.btn-contact a{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: var(--secondary-font-quicksand);
+    font-weight: var(--fw-semibold);
+    color:#ffffff;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    background: var(--btn-primary-color);
+}
+.btn-contact i{
+    margin: 0 10px 0 0px;
+    font-size: 22px;
+    line-height: 1; 
+}
+/*componentes reutilizables*/
+.title{
+    color: var(--shade-8);
+    font-family: var(--font-base--poppins);
+}
+.subtitle{
+    color: var(--shade-8);
+    font-size: 16px;
+    font-family: var(--font-base--poppins);
+    margin-bottom: 2px;
+}
+.description{
+    color: var(--shade-6);
+    font-size: 18px;
+    font-family: var(--secondary-font-quicksand);
+    font-weight: var(--fw-medium);
+    margin-top: 14px;
+}
+.contact{
+    margin-top: 120px;
+}
+div form label{
+    font-family: var(--font-base--poppins);
+    font-size: 16px;
+    color: var(--shade-8);
 }
