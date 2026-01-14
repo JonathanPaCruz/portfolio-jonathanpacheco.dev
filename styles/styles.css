@@ -275,6 +275,28 @@ nav ul li a{
     font-size: 22px;
     line-height: 1; 
 }
+/*Empieza la seccion: TRAYECTORIA*/
+.career{
+    max-width: 1019px;
+    margin: 120px auto 0;
+    text-align: center;
+}
+.slider{
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+    justify-content: center;
+}
+/*Empieza la seccion: CONTACTO*/
+.contact{
+    margin: auto;
+    max-width: 1019px;
+    width: 100%;
+}
+.up-head{
+    text-align: center;
+    margin-bottom: 12px;
+}
 /*componentes reutilizables*/
 .title{
     color: var(--shade-8);
