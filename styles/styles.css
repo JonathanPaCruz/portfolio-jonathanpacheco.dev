@@ -297,6 +297,101 @@ nav ul li a{
     text-align: center;
     margin-bottom: 12px;
 }
+.grid{
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+.right-site{
+    margin-left: 132px;
+    background: #0A66C2;
+}
+.right-site p:nth-of-type(1), .left-site p:nth-of-type(1){
+    font-family: var(--secondary-font-quicksand);
+    font-weight: var(--fw-medium);
+    color: var(--shade-7);
+}
+.email, .phone, .location{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--shade-8);
+}
+.email p{
+    margin: 0;
+    line-height: 1.3;
+}
+.email p:nth-of-type(1), .phone p:nth-of-type(1), .location p:nth-of-type(1){
+    text-decoration: none;
+    font-size: 16px;
+    font-family: var(--font-base--poppins);
+    font-weight: var(--fw-semibold);
+    color: var(--shade-8);
+}
+.email p:nth-of-type(2), .phone p:nth-of-type(2), .location p:nth-of-type(2){
+    text-decoration: none;
+    font-size: 16px;
+    font-family: var(--font-base--poppins);
+    font-weight: var(--fw-light);
+    color: var(--shade-7);
+    margin-top: -5px;
+}
+.contact-item, .phone-item, .location-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 12px 0 auto;
+}
+.icon-email, .icon-phone, .icon-location{
+    color: var(--shade-5);
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+    background:var(--shade-2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.icon-email i, .icon-location i, .icon-phone i{
+    font-size: 22px;
+    line-height: 1; 
+}
+.subtitle-social{
+    color: var(--shade-8);
+    font-size: 16px;
+    font-family: var(--font-base--poppins);
+    margin: 16px 0 12px 0;
+}
+.socials{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.socials a{
+    text-decoration: none;
+    font-family: var(--secondary-font-quicksand);
+    font-weight: var(--fw-semibold);
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    color:#ffffff;
+}
+.socials i{
+    margin: 0 10px 0 0px;
+    font-size: 22px;
+    line-height: 1; 
+}
+.link-git{
+    background: #0D1117;
+    display: inline-block;
+}
+.link-linked{
+    background: #0A66C2;
+    display: inline-block;
+}
 /*componentes reutilizables*/
 .title{
     color: var(--shade-8);
