@@ -418,3 +418,20 @@ div form label{
     font-size: 16px;
     color: var(--shade-8);
 }
+/*FOOTER*/
+footer{
+    margin-top: 120px;
+    padding: 40px 0 40px 0;
+    background-color: var(--shade-2);
+}
+.footend{
+    max-width: 1003px;
+    width: 100%;
+    margin: auto;
+}
+.footend p{
+    color: var(--shade-5);
+    font-family: var(--font-base--poppins);
+    font-style: var(--fw-bold);
+    font-size: 20px;
+}
